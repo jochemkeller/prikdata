@@ -15,7 +15,7 @@ const handler = async (originalYear, originalParams) => {
 
     const browser = await puppeteerExtra.launch(options);
 
-    const promises = [...Array(2)].map(async (_element, index) => {
+    const promises = [...Array(5)].map(async (_element, index) => {
         const params = `${originalYear + index}${originalParams}`;
         const year = originalYear + index;
 
