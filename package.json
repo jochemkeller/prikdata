@@ -1,0 +1,29 @@
+{
+  "name": "prikdata",
+  "version": "1.0.0",
+  "description": "Scraping Dutch vaccination data to provide it open source",
+  "main": "index.js",
+  "scripts": {
+    "action": "node ./action.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jochemkeller/prikdata.git"
+  },
+  "keywords": [
+    "actions"
+  ],
+  "author": "jochemkeller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jochemkeller/prikdata/issues"
+  },
+  "homepage": "https://github.com/jochemkeller/prikdata#readme",
+  "dependencies": {
+    "chrome-aws-lambda": "5.2.1",
+    "puppeteer": "9.1.1",
+    "puppeteer-core": "5.2.1",
+    "puppeteer-extra": "3.1.18",
+    "puppeteer-extra-plugin-stealth": "2.7.8"
+  }
+}
