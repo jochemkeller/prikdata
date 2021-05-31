@@ -3,6 +3,7 @@ on:
     - cron: "0 5 * * *" # 05:00
     - cron: "0 13 * * *" # 13:00
     - cron: "0 21 * * *" # 21:00
+  workflow_dispatch:
 name: Get prikdata
 jobs:
   build:
