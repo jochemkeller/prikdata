@@ -21,7 +21,7 @@
   "homepage": "https://github.com/jochemkeller/prikdata#readme",
   "dependencies": {
     "chrome-aws-lambda": "10.1.0",
-    "puppeteer": "13.0.1",
+    "puppeteer": "13.1.0",
     "puppeteer-core": "10.1.0",
     "puppeteer-extra": "3.2.3",
     "puppeteer-extra-plugin-stealth": "2.9.0"
